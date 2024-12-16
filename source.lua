@@ -43,7 +43,7 @@ local function SetUIAccent(color)
         end
 
         if HasProperty(v, "TextColor3") then
-            if v.TextColor3 ~= Color3.fromRGB(0, 0, 0) then
+            if v.TextColor3 ~= Color3.fromRGB(255, 255, 255) then
                 v.TextColor3 = color
             end
         end
@@ -546,7 +546,7 @@ function Library:CreateTab(name)
 
             CheckboxOutline.Name = "CheckboxOutline"
             CheckboxOutline.Parent = Toggle
-            CheckboxOutline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+            CheckboxOutline.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             CheckboxOutline.BackgroundTransparency = 1.000
             CheckboxOutline.Position = UDim2.new(0.5, -12, 0.5, -12)
             CheckboxOutline.Size = UDim2.new(0, 24, 0, 24)

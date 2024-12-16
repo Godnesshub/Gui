@@ -43,7 +43,7 @@ local function SetUIAccent(color)
         end
 
         if HasProperty(v, "TextColor3") then
-            if v.TextColor3 ~= Color3.fromRGB(255, 255, 255) then
+            if v.TextColor3 ~= Color3.fromRGB(0, 0, 0) then
                 v.TextColor3 = color
             end
         end
